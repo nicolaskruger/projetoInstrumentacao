@@ -18,19 +18,29 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    convehigth.cpp \
+    convert.cpp \
     dialog.cpp \
     main.cpp \
+    mainw.cpp \
     mainwindow.cpp \
+    nivel.cpp \
     testewidgets.cpp
 
 HEADERS += \
+    convehigth.h \
+    convert.h \
     dialog.h \
+    mainw.h \
     mainwindow.h \
+    nivel.h \
     testewidgets.h
 
 FORMS += \
     dialog.ui \
+    mainw.ui \
     mainwindow.ui \
+    nivel.ui \
     testewidgets.ui
 
 # Default rules for deployment.
