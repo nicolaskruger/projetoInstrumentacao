@@ -23,25 +23,19 @@ SOURCES += \
     dialog.cpp \
     main.cpp \
     mainw.cpp \
-    mainwindow.cpp \
-    nivel.cpp \
-    testewidgets.cpp
+    nivel.cpp
 
 HEADERS += \
     convehigth.h \
     convert.h \
     dialog.h \
     mainw.h \
-    mainwindow.h \
-    nivel.h \
-    testewidgets.h
+    nivel.h
 
 FORMS += \
     dialog.ui \
     mainw.ui \
-    mainwindow.ui \
-    nivel.ui \
-    testewidgets.ui
+    nivel.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
