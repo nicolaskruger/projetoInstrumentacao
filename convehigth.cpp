@@ -1,8 +1,19 @@
 #include "convehigth.h"
 
-conveHigth::conveHigth()
+conveHigth::conveHigth(QHostAddress ip, short port)
 {
+    this->ip=ip;
+    this->port=port;
+}
 
+bool conveHigth::startServer()
+{
+    if(server.listen(ip,port)){
+        startServerSuccess();
+        return true;
+    }
+    startServerSuccess();
+    return false;
 }
 
 conveHigth::~conveHigth()
