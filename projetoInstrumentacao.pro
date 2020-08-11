@@ -21,20 +21,16 @@ SOURCES += \
     convehigth.cpp \
     convert.cpp \
     dialog.cpp \
-    genericserver.cpp \
     main.cpp \
     mainw.cpp \
-    nivel.cpp \
-    server.cpp
+    nivel.cpp
 
 HEADERS += \
     convehigth.h \
     convert.h \
     dialog.h \
-    genericserver.h \
     mainw.h \
-    nivel.h \
-    server.h
+    nivel.h
 
 FORMS += \
     dialog.ui \
