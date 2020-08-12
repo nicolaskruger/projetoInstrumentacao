@@ -2,7 +2,9 @@
 #define MAINW_H
 
 #include <QMainWindow>
-#include "nivel.h"
+#include "facede.h"
+
+
 namespace Ui {
 class MainW;
 }
@@ -16,6 +18,7 @@ public:
     ~MainW();
 private:
     Ui::MainW *ui;
+    Facede fac;
     Nivel* n;
 };
 

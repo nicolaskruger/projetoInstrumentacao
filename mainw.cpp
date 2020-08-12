@@ -6,7 +6,7 @@ MainW::MainW(QWidget *parent) :
     ui(new Ui::MainW)
 {
     ui->setupUi(this);
-    n = new Nivel();
+    n = fac.getNivel();
     ui->horizontalLayout->addWidget(n);
 }
 

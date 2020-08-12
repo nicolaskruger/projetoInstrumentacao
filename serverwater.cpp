@@ -24,7 +24,7 @@ void ServerWater::connectionAboutToClose()
 {
     emit disconetMsg("Connection to cliente close");
     socket->close();
-    connect(&server,SIGNAL(newConnection()),this,SLOT(acceptConnection));
+    connect(&server,SIGNAL(newConnection()),this,SLOT(acceptConnection()));
 }
 
 ServerWater::ServerWater(QHostAddress ip, short port):ServeG(ip,port)
