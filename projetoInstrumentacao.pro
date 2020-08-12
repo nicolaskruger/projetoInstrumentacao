@@ -21,6 +21,7 @@ SOURCES += \
     convehigth.cpp \
     convert.cpp \
     dialog.cpp \
+    facede.cpp \
     main.cpp \
     mainw.cpp \
     nivel.cpp \
@@ -32,6 +33,7 @@ HEADERS += \
     convehigth.h \
     convert.h \
     dialog.h \
+    facede.h \
     mainw.h \
     nivel.h \
     serveg.h \
