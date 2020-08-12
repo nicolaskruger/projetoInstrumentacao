@@ -23,19 +23,26 @@ SOURCES += \
     dialog.cpp \
     main.cpp \
     mainw.cpp \
-    nivel.cpp
+    nivel.cpp \
+    serveg.cpp \
+    serverwater.cpp \
+    testetcp.cpp
 
 HEADERS += \
     convehigth.h \
     convert.h \
     dialog.h \
     mainw.h \
-    nivel.h
+    nivel.h \
+    serveg.h \
+    serverwater.h \
+    testetcp.h
 
 FORMS += \
     dialog.ui \
     mainw.ui \
-    nivel.ui
+    nivel.ui \
+    testetcp.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
