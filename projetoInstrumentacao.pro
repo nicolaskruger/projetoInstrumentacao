@@ -26,8 +26,7 @@ SOURCES += \
     mainw.cpp \
     nivel.cpp \
     serveg.cpp \
-    serverwater.cpp \
-    testetcp.cpp
+    serverwater.cpp
 
 HEADERS += \
     convehigth.h \
@@ -37,8 +36,7 @@ HEADERS += \
     mainw.h \
     nivel.h \
     serveg.h \
-    serverwater.h \
-    testetcp.h
+    serverwater.h
 
 FORMS += \
     dialog.ui \
